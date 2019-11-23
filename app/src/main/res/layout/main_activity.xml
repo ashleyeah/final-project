@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="281dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="63dp"
+            android:text="Choose Your College:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="30sp"
+            app:fontFamily="sans-serif-condensed-medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/las"
+            android:layout_width="300"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:text="Liberal Arts and Sciences (LAS)"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Title" />
+
+        <Button
+            android:id="@+id/eng"
+            android:layout_width="300"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Grainger College of Engineering"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/las" />
+
+        <Button
+            android:id="@+id/bus"
+            android:layout_width="300"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Gies College of Business"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/eng" />
+
+        <Button
+            android:id="@+id/aces"
+            android:layout_width="300"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="College of ACES"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bus" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
