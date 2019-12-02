@@ -2,7 +2,9 @@ package com.example.finalproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 
 import com.example.finalproject.ui.main.MainFragment;
 
@@ -17,5 +19,12 @@ public class MainActivity extends AppCompatActivity {
                     .replace(R.id.container, MainFragment.newInstance())
                     .commitNow();
         }
+        Button las = findViewById(R.id.las);
+        Button eng = findViewById(R.id.eng);
+        Button bus = findViewById(R.id.bus);
+        Button aces = findViewById(R.id.aces);
+        las.setOnClickListener(unused -> startActivity(new Intent(this, LasActivity.class)));
+
+
     }
 }
