@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         aces.setOnClickListener(unused -> startActivity(new Intent(this, OtherActivity.class)));
         faa.setOnClickListener(unused -> startActivity(new Intent(this, OtherActivity.class)));
         // test
+        // test 2
 
 
     }
