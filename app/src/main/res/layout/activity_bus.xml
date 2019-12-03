@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".LasActivity">
+    tools:context=".BusActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,122 +16,99 @@
             android:id="@+id/comp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" - Advanced Composition (ACP) "
+            android:clickable="true"
+            android:text=" - Advanced Composition (3 Hours) "
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
+            android:textStyle="bold" />
 
 
         <TextView
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="     Some curricula may require a specific course"
+            android:text="     Limited transfer courses allowed for Advanced Composition.  Transfer courses equivalent to BTW 250, 261, 263, Rhet 233 and Rhet 243 will be accepted for Advanced Composition.  Please note, BTW 250, Principles of Business Composition, is recommended for potential CPA Exam Candidates"
             android:textSize="18sp" />
 
         <TextView
             android:id="@+id/hum"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" - 6 hours Humanities and Arts (HP or LA) "
+            android:clickable="true"
+            android:text=" - Humanities and the Arts (3 courses)"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="     Historical and Philosophical Perspectives"
+            android:text="     Literature and the Arts (1-2 courses)"
             android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textView17"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="     Literature and the Arts"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/soc"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=" - 6 hours Social and Behavioral Sciences (SS or BS)"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
-
-        <TextView
-            android:id="@+id/textView19"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="     Social Sciences  "
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="     Behavioral Sciences"
+            android:text="     Historical and Philosophical Perspectives (1-2 courses)"
             android:textSize="18sp" />
 
         <TextView
             android:id="@+id/sci"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" - 6 hours Natural Sciences and Technology (LS or PS) "
+            android:clickable="true"
+            android:text=" - Natural Sciences and Technology (2 courses) "
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView22"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="     Life Sciences  "
+            android:text="     Life Sciences (0 - 2 courses)"
             android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textView23"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="     Physical Sciences"
+            android:text="     Physical Sciences (0 - 2 courses)"
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/quan"
+            android:id="@+id/soc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" - 2 Quantitative Reasoning Courses"
+            android:clickable="true"
+            android:text=" - Behavioral Sciences (1 course)"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/west"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" - 1 Western Cultures (W) Course"
+            android:clickable="true"
+            android:text=" - Western Cultures (1 course)"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/nonw"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" - 1 Non-Western Cultures (NW) Course"
+            android:clickable="true"
+            android:text=" - Non-Western Cultures (1 course) "
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/us"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" - 1 U.S. Minority Cultures (US) Course"
+            android:clickable="true"
+            android:text=" - U.S. Minorities Cultures (1 course) "
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
+            android:textStyle="bold" />
     </LinearLayout>
 </LinearLayout>
