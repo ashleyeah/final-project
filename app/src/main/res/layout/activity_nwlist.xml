@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/cwl207"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CWL 207: Indian Cinema in Context" />
+
+    <EditText
+        android:id="@+id/cpsc116"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CPSC 116: The Global Food Production Web" />
+
+    <EditText
+        android:id="@+id/cpsc131"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CPSC 131: Agriculture in Mythology" />
+
+    <EditText
+        android:id="@+id/arab150"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ARAB 150: Language and Culture of Arab World" />
+
+    <EditText
+        android:id="@+id/cwl114"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CWL 114: Global and Consciousness and Lit" />
+
+    <EditText
+        android:id="@+id/ling111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="LING 111: Language in Globalization" />
+
+    <EditText
+        android:id="@+id/rel110"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="REL 110: World Religions" />
+
+    <EditText
+        android:id="@+id/geog101"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="GEOG 101: Global Development and Environment" />
+
+    <EditText
+        android:id="@+id/ealc130"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="EALC 130: The Chinese Language" />
+
+    <EditText
+        android:id="@+id/hist100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="HIST 100: Global History" />
+</LinearLayout>

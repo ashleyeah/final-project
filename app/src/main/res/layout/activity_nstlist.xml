@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/phys123"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="PHYS 123: Physics Made Easy" />
+
+    <EditText
+        android:id="@+id/chem105"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CHEM 105: General Chemistry Lab II" />
+
+    <EditText
+        android:id="@+id/ansc110"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ANSC 110: Life with Animals and Biotech" />
+
+    <EditText
+        android:id="@+id/atms120"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ATMS 120: Severe and Hazardous Weather" />
+
+    <EditText
+        android:id="@+id/chem103"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CHEM 103: General Chemistry Lab I" />
+
+    <EditText
+        android:id="@+id/ansc207"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ANSC 207: Companion Animal Biology and Care" />
+
+    <EditText
+        android:id="@+id/mcb170"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="MCB 170: Society and the Brain" />
+
+    <EditText
+        android:id="@+id/cpsc113"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CPSC 113: Environment, Agriculture, and Society" />
+
+    <EditText
+        android:id="@+id/anth143"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ANTH 143: Biology of Human Behavior" />
+
+    <EditText
+        android:id="@+id/fshn120"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="FSHN 120: Contemporary Nutrition" />
+</LinearLayout>
