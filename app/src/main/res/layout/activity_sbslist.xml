@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SBSList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/socw297"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="SOCW 297: Asian Families in America" />
+
+        <EditText
+            android:id="@+id/epsy201"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="EPSY 201: Educational Pyschology" />
+
+        <EditText
+            android:id="@+id/hdfs105"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="HDFS 105: Intro to Human Development" />
+
+        <EditText
+            android:id="@+id/shs222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="SHS 222: Lang and Culture Deaf Communities" />
+
+        <EditText
+            android:id="@+id/sped322"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="SPED 322: Intro to Intellectual Disability" />
+
+        <EditText
+            android:id="@+id/ansc305"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="ANSC 305: Human Animal Interactions" />
+
+        <EditText
+            android:id="@+id/shs271"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="SHS 271: Communication and Aging" />
+
+        <EditText
+            android:id="@+id/anth209"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="ANTH 209: Food, Culture, and Society" />
+
+        <EditText
+            android:id="@+id/shs120"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="SHS 120: Child, Communication, and Language Ability" />
+
+        <EditText
+            android:id="@+id/kin249"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="KIN 249: Sport and Modern Society" />
+
+    </LinearLayout>
+</LinearLayout>

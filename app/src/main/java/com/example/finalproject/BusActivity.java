@@ -16,9 +16,7 @@ public class BusActivity extends AppCompatActivity {
         setContentView(R.layout.activity_bus);
 
         TextView behavior = findViewById(R.id.soc);
-    }
+        behavior.setOnClickListener(unused -> startActivity(new Intent(this, SBSList.class)));
 
-    public void socOnClick() {
-        startActivity(new Intent(this, SBSList.class));
     }
 }

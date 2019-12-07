@@ -80,7 +80,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
-            android:onClick="socOnClick"
             android:text=" - Behavioral Sciences (1 course)"
             android:textSize="20sp"
             android:textStyle="bold" />
