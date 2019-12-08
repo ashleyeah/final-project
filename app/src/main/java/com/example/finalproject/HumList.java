@@ -11,6 +11,7 @@ public class HumList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_humlist);
+
         // All of this is to make TextViews uneditable.
         TextView cwl207 = findViewById(R.id.cwl207);
         TextView faa220 = findViewById(R.id.faa220);
@@ -33,5 +34,6 @@ public class HumList extends AppCompatActivity {
         ece316.setKeyListener(null);
         art310.setKeyListener(null);
         fr156.setKeyListener(null);
+
     }
 }

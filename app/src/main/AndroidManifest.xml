@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SBSList"></activity>
+        <activity android:name=".WList"></activity>
+        <activity android:name=".USMinList" />
+        <activity android:name=".QuanList" />
+        <activity android:name=".NWList" />
+        <activity android:name=".NSTList" />
+        <activity android:name=".HumList" />
+        <activity android:name=".ACList" />
+        <activity android:name=".SBSList" />
         <activity android:name=".OtherActivity" />
         <activity android:name=".BusActivity" />
         <activity android:name=".EngActivity" />

@@ -1,85 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HumList">
 
-    <EditText
-        android:id="@+id/cwl207"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="CWL 207: Indian Cinema in Context" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/faa220"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="FAA 220: Introduction to Fashion" />
+        <EditText
+            android:id="@+id/cwl207"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="CWL 207: Indian Cinema in Context" />
 
-    <EditText
-        android:id="@+id/art105"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="ART 105: Visual Design for Non-Majors" />
+        <EditText
+            android:id="@+id/faa220"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="FAA 220: Introduction to Fashion" />
 
-    <EditText
-        android:id="@+id/sped117"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="SPED 117: The Culture of Disability" />
+        <EditText
+            android:id="@+id/art105"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="ART 105: Visual Design for Non-Majors" />
 
-    <EditText
-        android:id="@+id/danc100"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="DANC 100: Intro to Cotemporary Dance" />
+        <EditText
+            android:id="@+id/sped117"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="SPED 117: The Culture of Disability" />
 
-    <EditText
-        android:id="@+id/educ202"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="EDUC 202: Social Justice Sch and Society" />
+        <EditText
+            android:id="@+id/danc100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="DANC 100: Intro to Contemporary Dance" />
 
-    <EditText
-        android:id="@+id/thea110"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="THEA 110: Broadway Musicals" />
+        <EditText
+            android:id="@+id/educ202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="EDUC 202: Social Justice Sch and Society" />
 
-    <EditText
-        android:id="@+id/ece316"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="ECE 316: Ethics and Engineering" />
+        <EditText
+            android:id="@+id/thea110"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="THEA 110: Broadway Musicals" />
 
-    <EditText
-        android:id="@+id/art310"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="ART 310: Design Thinking" />
+        <EditText
+            android:id="@+id/ece316"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="ECE 316: Ethics and Engineering" />
 
-    <EditText
-        android:id="@+id/fr156"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="FR 156: Exploring Paris" />
+        <EditText
+            android:id="@+id/art310"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="ART 310: Design Thinking" />
+
+        <EditText
+            android:id="@+id/fr156"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="FR 156: Exploring Paris" />
+    </LinearLayout>
 </LinearLayout>

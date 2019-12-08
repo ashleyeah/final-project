@@ -1,85 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuanList">
 
-    <EditText
-        android:id="@+id/chlh421"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="CHLH 421: Health Data Analysis" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/atms120"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="ATMS 120: Severe and Hazardous Weather" />
+        <EditText
+            android:id="@+id/chlh421"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="CHLH 421: Health Data Analysis" />
 
-    <EditText
-        android:id="@+id/kin401"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="KIN 401: Measure and Evaluate in Kinesiology" />
+        <EditText
+            android:id="@+id/atms120"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="ATMS 120: Severe and Hazardous Weather" />
 
-    <EditText
-        android:id="@+id/cs105"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="CS 105: Intro Computing: Non-Tech" />
+        <EditText
+            android:id="@+id/kin401"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="KIN 401: Measure and Evaluate in Kinesiology" />
 
-    <EditText
-        android:id="@+id/stat212"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="STAT 212: Biostatistics" />
+        <EditText
+            android:id="@+id/cs105"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="CS 105: Intro Computing: Non-Tech" />
 
-    <EditText
-        android:id="@+id/stat200"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="STAT 200: Statistical Analysis" />
+        <EditText
+            android:id="@+id/stat212"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="STAT 212: Biostatistics" />
 
-    <EditText
-        android:id="@+id/cs101"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="CS 101: Intro Computing: Engineering and Science" />
+        <EditText
+            android:id="@+id/stat200"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="STAT 200: Statistical Analysis" />
 
-    <EditText
-        android:id="@+id/cs125"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="CS 125: Intro to Computer Science" />
+        <EditText
+            android:id="@+id/cs101"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="CS 101: Intro Computing: Engineering and Science" />
 
-    <EditText
-        android:id="@+id/info102"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="INFO 102: Little Bits to Big Ideas" />
+        <EditText
+            android:id="@+id/cs125"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="CS 125: Intro to Computer Science" />
 
-    <EditText
-        android:id="@+id/soc380"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="SOC 380: Social Research Methods" />
+        <EditText
+            android:id="@+id/info102"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="INFO 102: Little Bits to Big Ideas" />
+
+        <EditText
+            android:id="@+id/soc380"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="SOC 380: Social Research Methods" />
+    </LinearLayout>
 </LinearLayout>

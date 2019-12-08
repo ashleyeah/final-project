@@ -35,3 +35,4 @@ public class USMinList extends AppCompatActivity {
         lls100.setKeyListener(null);
     }
 }
+

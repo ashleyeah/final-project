@@ -1,85 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WList">
 
-    <EditText
-        android:id="@+id/danc100"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="DANC 100: Intro to Cotemporary Dance" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/thea110"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="THEA 110: Broadway Musicals" />
+        <EditText
+            android:id="@+id/danc100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="DANC 100: Intro to Cotemporary Dance" />
 
-    <EditText
-        android:id="@+id/fr156"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="FR 156: Exploring Paris" />
+        <EditText
+            android:id="@+id/thea110"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="THEA 110: Broadway Musicals" />
 
-    <EditText
-        android:id="@+id/muse250"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="MUSE 250: The World Through Museums" />
+        <EditText
+            android:id="@+id/fr156"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="FR 156: Exploring Paris" />
 
-    <EditText
-        android:id="@+id/cpsc113"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="CPSC 113: Environment, Agriculture, and Society" />
+        <EditText
+            android:id="@+id/muse250"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="MUSE 250: The World Through Museums" />
 
-    <EditText
-        android:id="@+id/glbl100"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="GLBL 100: Intro to Global Studies" />
+        <EditText
+            android:id="@+id/cpsc113"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="CPSC 113: Environment, Agriculture, and Society" />
 
-    <EditText
-        android:id="@+id/ansc250"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="ANSC 250: Companion Animals in Society" />
+        <EditText
+            android:id="@+id/glbl100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="GLBL 100: Intro to Global Studies" />
 
-    <EditText
-        android:id="@+id/scan251"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="SCAN 251: Viking Mythology" />
+        <EditText
+            android:id="@+id/ansc250"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="ANSC 250: Companion Animals in Society" />
 
-    <EditText
-        android:id="@+id/ger251"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="GER 251: Grimm's Fairy Tales in Context" />
+        <EditText
+            android:id="@+id/scan251"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="SCAN 251: Viking Mythology" />
 
-    <EditText
-        android:id="@+id/rst242"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="RST 242: Nature and American Culture" />
+        <EditText
+            android:id="@+id/ger251"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="GER 251: Grimm's Fairy Tales in Context" />
+
+        <EditText
+            android:id="@+id/rst242"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="RST 242: Nature and American Culture" />
+    </LinearLayout>
 </LinearLayout>

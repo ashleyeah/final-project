@@ -11,7 +11,7 @@ public class WList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wlist);
-        // All of this is to make TextViews uneditable.
+        // All of this is to make TextViews uneditable
         TextView danc100 = findViewById(R.id.danc100);
         TextView thea110 = findViewById(R.id.thea110);
         TextView fr156 = findViewById(R.id.fr156);
