@@ -17,7 +17,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="DANC 100: Intro to Cotemporary Dance" />
+            android:text="DANC 100: Intro to Cotemporary Dance"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/thea110"
@@ -25,7 +26,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="THEA 110: Broadway Musicals" />
+            android:text="THEA 110: Broadway Musicals"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/fr156"
@@ -33,7 +35,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="FR 156: Exploring Paris" />
+            android:text="FR 156: Exploring Paris"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/muse250"
@@ -41,7 +44,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="MUSE 250: The World Through Museums" />
+            android:text="MUSE 250: The World Through Museums"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/cpsc113"
@@ -49,7 +53,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="CPSC 113: Environment, Agriculture, and Society" />
+            android:text="CPSC 113: Environment, Agriculture, and Society"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/glbl100"
@@ -57,7 +62,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="GLBL 100: Intro to Global Studies" />
+            android:text="GLBL 100: Intro to Global Studies"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/ansc250"
@@ -65,7 +71,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="ANSC 250: Companion Animals in Society" />
+            android:text="ANSC 250: Companion Animals in Society"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/scan251"
@@ -73,7 +80,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="SCAN 251: Viking Mythology" />
+            android:text="SCAN 251: Viking Mythology"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/ger251"
@@ -81,7 +89,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="GER 251: Grimm's Fairy Tales in Context" />
+            android:text="GER 251: Grimm's Fairy Tales in Context"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/rst242"
@@ -89,6 +98,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="RST 242: Nature and American Culture" />
+            android:text="RST 242: Nature and American Culture"
+            android:clickable="true" />
     </LinearLayout>
 </LinearLayout>

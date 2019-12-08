@@ -17,7 +17,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="CWL 207: Indian Cinema in Context" />
+            android:text="CWL 207: Indian Cinema in Context"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/faa220"
@@ -25,7 +26,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="FAA 220: Introduction to Fashion" />
+            android:text="FAA 220: Introduction to Fashion"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/art105"
@@ -33,7 +35,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="ART 105: Visual Design for Non-Majors" />
+            android:text="ART 105: Visual Design for Non-Majors"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/sped117"
@@ -41,7 +44,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="SPED 117: The Culture of Disability" />
+            android:text="SPED 117: The Culture of Disability"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/danc100"
@@ -49,7 +53,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="DANC 100: Intro to Contemporary Dance" />
+            android:text="DANC 100: Intro to Contemporary Dance"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/educ202"
@@ -57,7 +62,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="EDUC 202: Social Justice Sch and Society" />
+            android:text="EDUC 202: Social Justice Sch and Society"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/thea110"
@@ -65,7 +71,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="THEA 110: Broadway Musicals" />
+            android:text="THEA 110: Broadway Musicals"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/ece316"
@@ -73,7 +80,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="ECE 316: Ethics and Engineering" />
+            android:text="ECE 316: Ethics and Engineering"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/art310"
@@ -81,7 +89,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="ART 310: Design Thinking" />
+            android:text="ART 310: Design Thinking"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/fr156"
@@ -89,6 +98,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="FR 156: Exploring Paris" />
+            android:text="FR 156: Exploring Paris"
+            android:clickable="true" />
     </LinearLayout>
 </LinearLayout>

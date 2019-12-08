@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,7 +16,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="SOCW 297: Asian Families in America" />
+            android:text="SOCW 297: Asian Families in America"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/epsy201"
@@ -25,7 +25,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="EPSY 201: Educational Pyschology" />
+            android:text="EPSY 201: Educational Pyschology"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/hdfs105"
@@ -33,7 +34,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="HDFS 105: Intro to Human Development" />
+            android:text="HDFS 105: Intro to Human Development"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/shs222"
@@ -41,7 +43,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="SHS 222: Lang and Culture Deaf Communities" />
+            android:text="SHS 222: Lang and Culture Deaf Communities"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/sped322"
@@ -49,7 +52,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="SPED 322: Intro to Intellectual Disability" />
+            android:text="SPED 322: Intro to Intellectual Disability"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/ansc305"
@@ -57,7 +61,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="ANSC 305: Human Animal Interactions" />
+            android:text="ANSC 305: Human Animal Interactions"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/shs271"
@@ -65,7 +70,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="SHS 271: Communication and Aging" />
+            android:text="SHS 271: Communication and Aging"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/anth209"
@@ -73,7 +79,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="ANTH 209: Food, Culture, and Society" />
+            android:text="ANTH 209: Food, Culture, and Society"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/shs120"
@@ -81,7 +88,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="SHS 120: Child, Communication, and Language Ability" />
+            android:text="SHS 120: Child, Communication, and Language Ability"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/kin249"
@@ -89,7 +97,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="KIN 249: Sport and Modern Society" />
+            android:text="KIN 249: Sport and Modern Society"
+            android:clickable="true" />
 
     </LinearLayout>
 </LinearLayout>

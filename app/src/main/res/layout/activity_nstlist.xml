@@ -17,7 +17,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="PHYS 123: Physics Made Easy" />
+            android:text="PHYS 123: Physics Made Easy"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/chem105"
@@ -25,7 +26,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="CHEM 105: General Chemistry Lab II" />
+            android:text="CHEM 105: General Chemistry Lab II"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/ansc110"
@@ -33,7 +35,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="ANSC 110: Life with Animals and Biotech" />
+            android:text="ANSC 110: Life with Animals and Biotech"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/atms120"
@@ -41,7 +44,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="ATMS 120: Severe and Hazardous Weather" />
+            android:text="ATMS 120: Severe and Hazardous Weather"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/chem103"
@@ -49,7 +53,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="CHEM 103: General Chemistry Lab I" />
+            android:text="CHEM 103: General Chemistry Lab I"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/ansc207"
@@ -57,7 +62,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="ANSC 207: Companion Animal Biology and Care" />
+            android:text="ANSC 207: Companion Animal Biology and Care"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/mcb170"
@@ -65,7 +71,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="MCB 170: Society and the Brain" />
+            android:text="MCB 170: Society and the Brain"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/cpsc113"
@@ -73,7 +80,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="CPSC 113: Environment, Agriculture, and Society" />
+            android:text="CPSC 113: Environment, Agriculture, and Society"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/anth143"
@@ -81,7 +89,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="ANTH 143: Biology of Human Behavior" />
+            android:text="ANTH 143: Biology of Human Behavior"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/fshn120"
@@ -89,6 +98,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="FSHN 120: Contemporary Nutrition" />
+            android:text="FSHN 120: Contemporary Nutrition"
+            android:clickable="true" />
     </LinearLayout>
 </LinearLayout>

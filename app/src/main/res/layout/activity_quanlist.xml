@@ -17,7 +17,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="CHLH 421: Health Data Analysis" />
+            android:text="CHLH 421: Health Data Analysis"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/atms120"
@@ -25,7 +26,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="ATMS 120: Severe and Hazardous Weather" />
+            android:text="ATMS 120: Severe and Hazardous Weather"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/kin401"
@@ -33,7 +35,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="KIN 401: Measure and Evaluate in Kinesiology" />
+            android:text="KIN 401: Measure and Evaluate in Kinesiology"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/cs105"
@@ -41,7 +44,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="CS 105: Intro Computing: Non-Tech" />
+            android:text="CS 105: Intro Computing: Non-Tech"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/stat212"
@@ -49,7 +53,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="STAT 212: Biostatistics" />
+            android:text="STAT 212: Biostatistics"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/stat200"
@@ -57,7 +62,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="STAT 200: Statistical Analysis" />
+            android:text="STAT 200: Statistical Analysis"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/cs101"
@@ -65,7 +71,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="CS 101: Intro Computing: Engineering and Science" />
+            android:text="CS 101: Intro Computing: Engineering and Science"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/cs125"
@@ -73,7 +80,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="CS 125: Intro to Computer Science" />
+            android:text="CS 125: Intro to Computer Science"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/info102"
@@ -81,7 +89,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="INFO 102: Little Bits to Big Ideas" />
+            android:text="INFO 102: Little Bits to Big Ideas"
+            android:clickable="true" />
 
         <EditText
             android:id="@+id/soc380"
@@ -89,6 +98,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="SOC 380: Social Research Methods" />
+            android:text="SOC 380: Social Research Methods"
+            android:clickable="true" />
     </LinearLayout>
 </LinearLayout>
