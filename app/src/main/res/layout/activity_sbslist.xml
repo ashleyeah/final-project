@@ -86,10 +86,10 @@
             android:id="@+id/shs120"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="SHS 120: Child, Communication, and Language Ability"
-            android:clickable="true" />
+            android:text="SHS 120: Child, Comm, and Lang Ability" />
 
         <EditText
             android:id="@+id/kin249"

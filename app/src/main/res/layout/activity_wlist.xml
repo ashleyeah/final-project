@@ -15,10 +15,10 @@
             android:id="@+id/danc100"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="DANC 100: Intro to Cotemporary Dance"
-            android:clickable="true" />
+            android:text="DANC 100: Intro to Contemporary Dance" />
 
         <EditText
             android:id="@+id/thea110"
