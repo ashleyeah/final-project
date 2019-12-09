@@ -2,6 +2,7 @@ package com.example.finalproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -35,5 +36,24 @@ public class HumList extends AppCompatActivity {
         art310.setKeyListener(null);
         fr156.setKeyListener(null);
 
+        call(cwl207);
+        call(faa220);
+        call(art105);
+        call(sped117);
+        call(danc100);
+        call(educ202);
+        call(thea110);
+        call(ece316);
+        call(art310);
+        call(fr156);
+
+    }
+    public void call(TextView name) {
+        String a = name.getText().toString();
+        String[] array = a.split(" ");
+        Intent intent = new Intent(this, CourseInfo.class);
+        intent.putExtra("subjectCode", array[0]);
+        intent.putExtra("courseNumber", array[1].substring(0, 3));
+        name.setOnClickListener(unused -> startActivity(intent));
     }
 }

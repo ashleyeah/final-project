@@ -2,6 +2,7 @@ package com.example.finalproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -33,5 +34,25 @@ public class WList extends AppCompatActivity {
         scan251.setKeyListener(null);
         ger251.setKeyListener(null);
         rst242.setKeyListener(null);
+
+        call(danc100);
+        call(thea110);
+        call(fr156);
+        call(muse250);
+        call(cpsc113);
+        call(glbl100);
+        call(ansc250);
+        call(scan251);
+        call(ger251);
+        call(rst242);
+    }
+
+    public void call(TextView name) {
+        String a = name.getText().toString();
+        String[] array = a.split(" ");
+        Intent intent = new Intent(this, CourseInfo.class);
+        intent.putExtra("subjectCode", array[0]);
+        intent.putExtra("courseNumber", array[1].substring(0, 3));
+        name.setOnClickListener(unused -> startActivity(intent));
     }
 }

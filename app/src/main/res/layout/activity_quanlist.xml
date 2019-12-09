@@ -100,5 +100,12 @@
             android:inputType="textPersonName"
             android:text="SOC 380: Social Research Methods"
             android:clickable="true" />
+
+        <TextView
+            android:id="@+id/credit5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:text="*Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/" />
     </LinearLayout>
 </LinearLayout>

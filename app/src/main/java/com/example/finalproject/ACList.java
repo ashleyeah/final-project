@@ -35,7 +35,28 @@ public class ACList extends AppCompatActivity {
         chlh304.setKeyListener(null);
         btw250.setKeyListener(null);
 
-        ansc205.setOnClickListener(unused -> startActivity(new Intent(this, CourseInfo.class)));
+        // Calls intent for each class
+        call(ansc205);
+        call(me470);
+        call(educ202);
+        call(phys280);
+        call(ece316);
+        call(ae443);
+        call(shs270);
+        call(aged230);
+        call(chlh304);
+        call(btw250);
+    }
+
+    // Used to set the subject code and course number based off the specific course
+    // and then call the intent
+    public void call(TextView name) {
+        String a = name.getText().toString();
+        String[] array = a.split(" ");
+        Intent intent = new Intent(this, CourseInfo.class);
+        intent.putExtra("subjectCode", array[0]);
+        intent.putExtra("courseNumber", array[1].substring(0, 3));
+        name.setOnClickListener(unused -> startActivity(intent));
     }
 }
 

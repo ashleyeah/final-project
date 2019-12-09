@@ -2,6 +2,7 @@ package com.example.finalproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -33,5 +34,25 @@ public class SBSList extends AppCompatActivity {
         anth209.setKeyListener(null);
         shs120.setKeyListener(null);
         kin249.setKeyListener(null);
+
+        call(socw297);
+        call(epsy201);
+        call(hdfs105);
+        call(shs222);
+        call(sped322);
+        call(ansc305);
+        call(shs271);
+        call(anth209);
+        call(shs120);
+        call(kin249);
+    }
+
+    public void call(TextView name) {
+        String a = name.getText().toString();
+        String[] array = a.split(" ");
+        Intent intent = new Intent(this, CourseInfo.class);
+        intent.putExtra("subjectCode", array[0]);
+        intent.putExtra("courseNumber", array[1].substring(0, 3));
+        name.setOnClickListener(unused -> startActivity(intent));
     }
 }

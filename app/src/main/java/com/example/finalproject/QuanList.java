@@ -2,6 +2,7 @@ package com.example.finalproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -33,5 +34,25 @@ public class QuanList extends AppCompatActivity {
         cs125.setKeyListener(null);
         info102.setKeyListener(null);
         soc380.setKeyListener(null);
+
+        call(chlh421);
+        call(atms120);
+        call(kin401);
+        call(cs105);
+        call(stat212);
+        call(stat200);
+        call(cs101);
+        call(cs125);
+        call(info102);
+        call(soc380);
+    }
+
+    public void call(TextView name) {
+        String a = name.getText().toString();
+        String[] array = a.split(" ");
+        Intent intent = new Intent(this, CourseInfo.class);
+        intent.putExtra("subjectCode", array[0]);
+        intent.putExtra("courseNumber", array[1].substring(0, 3));
+        name.setOnClickListener(unused -> startActivity(intent));
     }
 }

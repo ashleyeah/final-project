@@ -2,6 +2,7 @@ package com.example.finalproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -33,5 +34,24 @@ public class NSTList extends AppCompatActivity {
         cpsc113.setKeyListener(null);
         anth143.setKeyListener(null);
         fshn120.setKeyListener(null);
+
+        call(phys123);
+        call(chem105);
+        call(ansc110);
+        call(atms120);
+        call(chem103);
+        call(ansc207);
+        call(mcb170);
+        call(cpsc113);
+        call(anth143);
+        call(fshn120);
+    }
+    public void call(TextView name) {
+        String a = name.getText().toString();
+        String[] array = a.split(" ");
+        Intent intent = new Intent(this, CourseInfo.class);
+        intent.putExtra("subjectCode", array[0]);
+        intent.putExtra("courseNumber", array[1].substring(0, 3));
+        name.setOnClickListener(unused -> startActivity(intent));
     }
 }

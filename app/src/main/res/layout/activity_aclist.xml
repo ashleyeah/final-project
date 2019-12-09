@@ -8,97 +8,105 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/ansc205"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="ANSC 205: World Animal Resources"
-            android:clickable="true" />
+            android:text="ANSC 205: World Animal Resources" />
 
         <EditText
             android:id="@+id/me470"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="ME 470: Senior Design Project"
-            android:clickable="true" />
+            android:text="ME 470: Senior Design Project" />
 
         <EditText
             android:id="@+id/educ202"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="EDUC 202: Social Justic Sch and Society"
-            android:clickable="true" />
+            android:text="EDUC 202: Social Justic Sch and Society" />
 
         <EditText
             android:id="@+id/phys280"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="PHYS 280: Nuclear Weapons and Arms Control"
-            android:clickable="true" />
+            android:text="PHYS 280: Nuclear Weapons and Arms Control" />
 
         <EditText
             android:id="@+id/ece316"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="ECE 316: Ethics and Engineering"
-            android:clickable="true" />
+            android:text="ECE 316: Ethics and Engineering" />
 
         <EditText
             android:id="@+id/ae443"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="AE 443: Aerospace Systems Design II"
-            android:clickable="true" />
+            android:text="AE 443: Aerospace Systems Design II" />
 
         <EditText
             android:id="@+id/shs270"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="SHS 270: Common Disability in the Media"
-            android:clickable="true" />
+            android:text="SHS 270: Common Disability in the Media" />
 
         <EditText
             android:id="@+id/aged230"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="AGED 230: Leadership Communications"
-            android:clickable="true" />
+            android:text="AGED 230: Leadership Communications" />
 
         <EditText
             android:id="@+id/chlh304"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="CHLH 304: Foundations of Health Behavior"
-            android:clickable="true" />
+            android:text="CHLH 304: Foundations of Health Behavior" />
 
         <EditText
             android:id="@+id/btw250"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="BTW 250: Principles Bus Comm"
-            android:clickable="true" />
+            android:text="BTW 250: Principles Bus Comm" />
+
+        <TextView
+            android:id="@+id/credit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:text="*Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/" />
     </LinearLayout>
+
 </LinearLayout>
