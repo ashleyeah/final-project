@@ -2,6 +2,7 @@ package com.example.finalproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -33,6 +34,8 @@ public class ACList extends AppCompatActivity {
         aged230.setKeyListener(null);
         chlh304.setKeyListener(null);
         btw250.setKeyListener(null);
+
+        ansc205.setOnClickListener(unused -> startActivity(new Intent(this, CourseInfo.class)));
     }
 }
 
