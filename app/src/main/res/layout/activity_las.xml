@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0000FF"
+    android:background="#13294b"
     tools:context=".LasActivity">
 
     <LinearLayout
@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - Advanced Composition (ACP) "
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif-condensed-light" />
@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Some curricula may require a specific course"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="20sp"
             app:fontFamily="sans-serif-condensed-light" />
 
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - 6 hours Humanities and Arts (HP or LA) "
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif-condensed-light" />
@@ -50,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Historical and Philosophical Perspectives"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="20sp"
             app:fontFamily="sans-serif-condensed-light" />
 
@@ -59,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Literature and the Arts"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textColorHighlight="#FF9800"
             android:textSize="20sp"
             app:fontFamily="sans-serif-condensed-light" />
@@ -70,7 +70,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - 6 hours Social and Behavioral Sciences (SS or BS)"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif-condensed-light" />
@@ -80,7 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Social Sciences  "
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="20sp"
             app:fontFamily="sans-serif-condensed-light" />
 
@@ -89,7 +89,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Behavioral Sciences"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="20sp"
             app:fontFamily="sans-serif-condensed-light" />
 
@@ -99,7 +99,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - 6 hours Natural Sciences and Technology (LS or PS) "
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif-condensed-light" />
@@ -109,7 +109,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Life Sciences  "
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="20sp"
             app:fontFamily="sans-serif-condensed-light" />
 
@@ -118,7 +118,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Physical Sciences"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="20sp"
             app:fontFamily="sans-serif-condensed-light" />
 
@@ -128,7 +128,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - 2 Quantitative Reasoning Courses"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif-condensed-light" />
@@ -139,7 +139,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - 1 Western Cultures (W) Course"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif-condensed-light" />
@@ -150,7 +150,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - 1 Non-Western Cultures (NW) Course"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif-condensed-light" />
@@ -161,7 +161,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - 1 U.S. Minority Cultures (US) Course"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif-condensed-light" />

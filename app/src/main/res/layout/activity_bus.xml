@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0000FF"
+    android:background="#13294b"
     tools:context=".BusActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#0000FF"
         android:gravity="center_vertical"
         android:orientation="vertical">
 
@@ -20,7 +19,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - Advanced Composition (3 Hours) "
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif-condensed-light" />
@@ -31,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Limited transfer courses allowed for Advanced Composition.  Transfer courses equivalent to BTW 250, 261, 263, Rhet 233 and Rhet 243 will be accepted for Advanced Composition.  Please note, BTW 250, Principles of Business Composition, is recommended for potential CPA Exam Candidates"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="18sp"
             app:fontFamily="sans-serif-condensed-light" />
 
@@ -41,7 +40,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - Humanities and the Arts (3 courses)"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif-condensed-light" />
@@ -51,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Literature and the Arts (1-2 courses)"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="20sp"
             app:fontFamily="sans-serif-condensed-light" />
 
@@ -60,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Historical and Philosophical Perspectives (1-2 courses)"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="20sp"
             app:fontFamily="sans-serif-condensed-light" />
 
@@ -70,7 +69,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - Natural Sciences and Technology (2 courses) "
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif-condensed-light" />
@@ -80,7 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Life Sciences (0 - 2 courses)"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="20sp"
             app:fontFamily="sans-serif-condensed-light" />
 
@@ -89,7 +88,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Physical Sciences (0 - 2 courses)"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="20sp"
             app:fontFamily="sans-serif-condensed-light" />
 
@@ -99,7 +98,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - Behavioral Sciences (1 course)"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif-condensed-light" />
@@ -110,7 +109,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - Western Cultures (1 course)"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif-condensed-light" />
@@ -121,7 +120,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - Non-Western Cultures (1 course) "
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif-condensed-light" />
@@ -132,7 +131,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - U.S. Minorities Cultures (1 course) "
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="sans-serif-condensed-light" />

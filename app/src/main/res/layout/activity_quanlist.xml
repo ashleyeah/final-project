@@ -4,13 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#13294B"
     tools:context=".QuanList">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#0000FF"
         android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantitative Reasoning: "
+            android:textColor="#E84A27"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/chlh421"
@@ -20,7 +29,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CHLH 421: Health Data Analysis"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/atms120"
@@ -30,7 +39,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="ATMS 120: Severe and Hazardous Weather"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/kin401"
@@ -40,7 +49,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="KIN 401: Measure and Evaluate in Kinesiology"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/cs105"
@@ -50,7 +59,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CS 105: Intro Computing: Non-Tech"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/stat212"
@@ -60,7 +69,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="STAT 212: Biostatistics"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/stat200"
@@ -70,7 +79,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="STAT 200: Statistical Analysis"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/cs101"
@@ -80,7 +89,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CS 101: Intro Computing: Engineering and Science"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/cs125"
@@ -90,7 +99,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CS 125: Intro to Computer Science"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/info102"
@@ -100,7 +109,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="INFO 102: Little Bits to Big Ideas"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/soc380"
@@ -110,7 +119,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="SOC 380: Social Research Methods"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <TextView
             android:id="@+id/credit5"
@@ -118,7 +127,7 @@
             android:layout_height="wrap_content"
             android:gravity="bottom"
             android:text="*Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             app:fontFamily="sans-serif-condensed-light" />
     </LinearLayout>
 </LinearLayout>

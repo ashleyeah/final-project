@@ -4,13 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#13294B"
     tools:context=".ACList">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#0000FF"
         android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advanced Composition:"
+            android:textColor="#E84A27"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/ansc205"
@@ -22,7 +31,7 @@
             android:inputType="textPersonName"
             android:text="ANSC 205: World Animal Resources"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:typeface="sans" />
 
         <EditText
@@ -34,7 +43,7 @@
             android:inputType="textPersonName"
             android:text="ME 470: Senior Design Project"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:typeface="sans" />
 
         <EditText
@@ -46,7 +55,7 @@
             android:inputType="textPersonName"
             android:text="EDUC 202: Social Justic Sch and Society"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:typeface="sans" />
 
         <EditText
@@ -58,7 +67,7 @@
             android:inputType="textPersonName"
             android:text="PHYS 280: Nuclear Weapons and Arms Control"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:typeface="sans" />
 
         <EditText
@@ -70,7 +79,7 @@
             android:inputType="textPersonName"
             android:text="ECE 316: Ethics and Engineering"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:typeface="sans" />
 
         <EditText
@@ -82,7 +91,7 @@
             android:inputType="textPersonName"
             android:text="AE 443: Aerospace Systems Design II"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:typeface="sans" />
 
         <EditText
@@ -94,7 +103,7 @@
             android:inputType="textPersonName"
             android:text="SHS 270: Common Disability in the Media"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:typeface="sans" />
 
         <EditText
@@ -106,7 +115,7 @@
             android:inputType="textPersonName"
             android:text="AGED 230: Leadership Communications"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:typeface="sans" />
 
         <EditText
@@ -118,7 +127,7 @@
             android:inputType="textPersonName"
             android:text="CHLH 304: Foundations of Health Behavior"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:typeface="sans" />
 
         <EditText
@@ -130,7 +139,7 @@
             android:inputType="textPersonName"
             android:text="BTW 250: Principles Bus Comm"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:typeface="sans" />
 
         <TextView
@@ -141,7 +150,7 @@
             android:gravity="bottom"
             android:text=" *Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             android:typeface="sans"
             app:fontFamily="sans-serif-condensed-light" />
     </LinearLayout>

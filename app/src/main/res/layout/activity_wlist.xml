@@ -4,13 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#13294B"
     tools:context=".WList">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#0000FF"
         android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Western/Comparative Cultures: "
+            android:textColor="#E84A27"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/danc100"
@@ -20,7 +29,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="DANC 100: Intro to Contemporary Dance"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/thea110"
@@ -30,7 +39,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="THEA 110: Broadway Musicals"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/fr156"
@@ -40,7 +49,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="FR 156: Exploring Paris"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/muse250"
@@ -50,7 +59,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="MUSE 250: The World Through Museums"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/cpsc113"
@@ -60,7 +69,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CPSC 113: Environment, Agriculture, and Society"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/glbl100"
@@ -70,7 +79,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="GLBL 100: Intro to Global Studies"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/ansc250"
@@ -80,7 +89,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="ANSC 250: Companion Animals in Society"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/scan251"
@@ -90,7 +99,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="SCAN 251: Viking Mythology"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/ger251"
@@ -100,7 +109,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="GER 251: Grimm's Fairy Tales in Context"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <EditText
             android:id="@+id/rst242"
@@ -110,7 +119,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="RST 242: Nature and American Culture"
-            android:textColor="#FF9800" />
+            android:textColor="#E84A27" />
 
         <TextView
             android:id="@+id/credit8"
@@ -118,7 +127,7 @@
             android:layout_height="wrap_content"
             android:gravity="bottom"
             android:text="*Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/"
-            android:textColor="#FF9800"
+            android:textColor="#E84A27"
             app:fontFamily="sans-serif-condensed-light" />
     </LinearLayout>
 </LinearLayout>
