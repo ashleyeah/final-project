@@ -21,6 +21,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FF9800"
             android:textSize="24sp"
+            android:textStyle="italic"
             app:fontFamily="@font/assistant_bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
