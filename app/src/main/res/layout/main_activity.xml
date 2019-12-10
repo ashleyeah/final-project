@@ -16,15 +16,17 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_marginTop="28dp"
             android:gravity="center"
             android:text="GEN EDS MADE EASY"
             android:textColor="#E84A27"
-            android:textSize="50dp"
+            android:textSize="48dp"
             android:textStyle="normal|bold|italic"
             app:fontFamily="@font/assistant_bold"
-            app:layout_constraintBottom_toTopOf="@+id/Title"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/Title"
