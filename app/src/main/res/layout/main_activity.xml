@@ -30,7 +30,7 @@
             android:id="@+id/las"
             android:layout_width="800px"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="60dp"
             android:background="#FF9800"
             android:text="Liberal Arts and Sciences (LAS)"
             app:layout_constraintEnd_toEndOf="parent"
