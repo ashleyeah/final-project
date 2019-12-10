@@ -13,6 +13,7 @@ package com.example.finalproject;
         import com.android.volley.toolbox.Volley;
 
         import org.w3c.dom.Document;
+        import org.w3c.dom.Text;
         import org.xml.sax.InputSource;
         import org.xml.sax.SAXException;
 
@@ -34,6 +35,8 @@ public class CourseInfo extends AppCompatActivity {
         final TextView info = findViewById(R.id.info);
         final TextView desc = findViewById(R.id.desc);
         final TextView ch = findViewById(R.id.ch);
+        final TextView prereq = findViewById(R.id.prereq);
+        final TextView degree = findViewById(R.id.degree);
 // ...
 
 // Instantiate the RequestQueue.
@@ -68,9 +71,13 @@ public class CourseInfo extends AppCompatActivity {
                         String label = doc.getElementsByTagName("label").item(0).getTextContent();
                         String description = doc.getElementsByTagName("description").item(0).getTextContent();
                         String creditHours = doc.getElementsByTagName("creditHours").item(0).getTextContent();
+                        String sectionInformation = doc.getElementsByTagName("courseSectionInformation").item(0).getTextContent();
+                        String degreeAttributes = doc.getElementsByTagName("sectionDegreeAttributes").item(0).getTextContent();
                         info.setText("Course Name: " + label);
                         desc.setText("Description: " + description);
                         ch.setText("Credit Hours: " + creditHours);
+                        prereq.setText(sectionInformation);
+                        degree.setText("Degree Attributes: " + degreeAttributes);
                     }
                 }, new Response.ErrorListener() {
             @Override
