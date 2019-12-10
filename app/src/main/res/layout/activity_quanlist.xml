@@ -9,103 +9,115 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#0000FF"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/chlh421"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CHLH 421: Health Data Analysis"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/atms120"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="ATMS 120: Severe and Hazardous Weather"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/kin401"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="KIN 401: Measure and Evaluate in Kinesiology"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/cs105"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CS 105: Intro Computing: Non-Tech"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/stat212"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="STAT 212: Biostatistics"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/stat200"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="STAT 200: Statistical Analysis"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/cs101"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CS 101: Intro Computing: Engineering and Science"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/cs125"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CS 125: Intro to Computer Science"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/info102"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="INFO 102: Little Bits to Big Ideas"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/soc380"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="SOC 380: Social Research Methods"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <TextView
             android:id="@+id/credit5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="bottom"
-            android:text="*Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/" />
+            android:text="*Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/"
+            android:textColor="#FF9800" />
     </LinearLayout>
 </LinearLayout>

@@ -9,103 +9,115 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#0000FF"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/cwl207"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CWL 207: Indian Cinema in Context"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/cpsc116"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CPSC 116: The Global Food Production Web"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/cpsc131"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CPSC 131: Agriculture in Mythology"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/arab150"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="ARAB 150: Language and Culture of Arab World"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/cwl114"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CWL 114: Global and Consciousness and Lit"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/ling111"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="LING 111: Language in Globalization"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/rel110"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="REL 110: World Religions"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/geog101"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="GEOG 101: Global Development and Environment"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/ealc130"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="EALC 130: The Chinese Language"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/hist100"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="HIST 100: Global History"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <TextView
             android:id="@+id/credit4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="bottom"
-            android:text="*Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/" />
+            android:text="*Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/"
+            android:textColor="#FF9800" />
     </LinearLayout>
 </LinearLayout>

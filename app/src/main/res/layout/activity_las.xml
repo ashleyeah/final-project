@@ -4,134 +4,151 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#0000FF"
     tools:context=".LasActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="730dp"
         android:gravity="center_vertical"
         android:orientation="vertical">
+
 
         <TextView
             android:id="@+id/comp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:text=" - Advanced Composition (ACP) "
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
-
+            android:textColor="#FF9800"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Some curricula may require a specific course"
-            android:textSize="18sp" />
+            android:textColor="#FF9800"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/hum"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:text=" - 6 hours Humanities and Arts (HP or LA) "
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
+            android:textColor="#FF9800"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Historical and Philosophical Perspectives"
-            android:textSize="18sp" />
+            android:textColor="#FF9800"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView17"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Literature and the Arts"
-            android:textSize="18sp" />
+            android:textColor="#FF9800"
+            android:textColorHighlight="#FF9800"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/soc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:text=" - 6 hours Social and Behavioral Sciences (SS or BS)"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
+            android:textColor="#FF9800"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView19"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Social Sciences  "
-            android:textSize="18sp" />
+            android:textColor="#FF9800"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView20"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Behavioral Sciences"
-            android:textSize="18sp" />
+            android:textColor="#FF9800"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/sci"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:text=" - 6 hours Natural Sciences and Technology (LS or PS) "
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
+            android:textColor="#FF9800"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView22"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Life Sciences  "
-            android:textSize="18sp" />
+            android:textColor="#FF9800"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView23"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Physical Sciences"
-            android:textSize="18sp" />
+            android:textColor="#FF9800"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/quan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:text=" - 2 Quantitative Reasoning Courses"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
+            android:textColor="#FF9800"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/west"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:text=" - 1 Western Cultures (W) Course"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
+            android:textColor="#FF9800"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/nonw"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:text=" - 1 Non-Western Cultures (NW) Course"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
+            android:textColor="#FF9800"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/us"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:text=" - 1 U.S. Minority Cultures (US) Course"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:clickable="true" />
+            android:textColor="#FF9800"
+            android:textSize="24sp"
+            android:textStyle="bold" />
     </LinearLayout>
 </LinearLayout>

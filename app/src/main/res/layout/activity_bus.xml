@@ -8,7 +8,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="727dp"
+        android:background="#0000FF"
         android:gravity="center_vertical"
         android:orientation="vertical">
 
@@ -18,7 +19,8 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - Advanced Composition (3 Hours) "
-            android:textSize="20sp"
+            android:textColor="#FF9800"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
 
@@ -27,6 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Limited transfer courses allowed for Advanced Composition.  Transfer courses equivalent to BTW 250, 261, 263, Rhet 233 and Rhet 243 will be accepted for Advanced Composition.  Please note, BTW 250, Principles of Business Composition, is recommended for potential CPA Exam Candidates"
+            android:textColor="#FF9800"
             android:textSize="18sp" />
 
         <TextView
@@ -35,7 +38,8 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - Humanities and the Arts (3 courses)"
-            android:textSize="20sp"
+            android:textColor="#FF9800"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
@@ -43,14 +47,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Literature and the Arts (1-2 courses)"
-            android:textSize="18sp" />
+            android:textColor="#FF9800"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView17"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Historical and Philosophical Perspectives (1-2 courses)"
-            android:textSize="18sp" />
+            android:textColor="#FF9800"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/sci"
@@ -58,7 +64,8 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - Natural Sciences and Technology (2 courses) "
-            android:textSize="20sp"
+            android:textColor="#FF9800"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
@@ -66,14 +73,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Life Sciences (0 - 2 courses)"
-            android:textSize="18sp" />
+            android:textColor="#FF9800"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView23"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="     Physical Sciences (0 - 2 courses)"
-            android:textSize="18sp" />
+            android:textColor="#FF9800"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/soc"
@@ -81,7 +90,8 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - Behavioral Sciences (1 course)"
-            android:textSize="20sp"
+            android:textColor="#FF9800"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
@@ -90,7 +100,8 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - Western Cultures (1 course)"
-            android:textSize="20sp"
+            android:textColor="#FF9800"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
@@ -99,7 +110,8 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - Non-Western Cultures (1 course) "
-            android:textSize="20sp"
+            android:textColor="#FF9800"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
@@ -108,7 +120,8 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text=" - U.S. Minorities Cultures (1 course) "
-            android:textSize="20sp"
+            android:textColor="#FF9800"
+            android:textSize="24sp"
             android:textStyle="bold" />
     </LinearLayout>
 </LinearLayout>

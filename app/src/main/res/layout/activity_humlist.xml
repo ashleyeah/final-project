@@ -9,103 +9,115 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#0000FF"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/cwl207"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CWL 207: Indian Cinema in Context"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/faa220"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="FAA 220: Introduction to Fashion"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/art105"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="ART 105: Visual Design for Non-Majors"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/sped117"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="SPED 117: The Culture of Disability"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/danc100"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="DANC 100: Intro to Contemporary Dance"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/educ202"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="EDUC 202: Social Justice Sch and Society"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/thea110"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="THEA 110: Broadway Musicals"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/ece316"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="ECE 316: Ethics and Engineering"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/art310"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="ART 310: Design Thinking"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/fr156"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="FR 156: Exploring Paris"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <TextView
             android:id="@+id/credit2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="bottom"
-            android:text="*Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/" />
+            android:text="*Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/"
+            android:textColor="#FF9800" />
     </LinearLayout>
 </LinearLayout>

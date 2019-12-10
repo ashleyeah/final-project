@@ -9,103 +9,115 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#0000FF"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/phys123"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="PHYS 123: Physics Made Easy"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/chem105"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CHEM 105: General Chemistry Lab II"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/ansc110"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="ANSC 110: Life with Animals and Biotech"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/atms120"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="ATMS 120: Severe and Hazardous Weather"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/chem103"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CHEM 103: General Chemistry Lab I"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/ansc207"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="ANSC 207: Companion Animal Biology and Care"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/mcb170"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="MCB 170: Society and the Brain"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/cpsc113"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CPSC 113: Environment, Agriculture, and Society"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/anth143"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="ANTH 143: Biology of Human Behavior"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/fshn120"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="FSHN 120: Contemporary Nutrition"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <TextView
             android:id="@+id/credit3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="bottom"
-            android:text="*Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/" />
+            android:text="*Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/"
+            android:textColor="#FF9800" />
     </LinearLayout>
 </LinearLayout>

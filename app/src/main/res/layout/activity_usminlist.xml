@@ -9,103 +9,115 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#0000FF"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/socw297"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="SOCW 297: Asian Families in America"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/educ201"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="EDUC 201: Identity and Difference in Education"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/shs222"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="SHS 222: Lang and Culture Deaf Communities"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/hist104"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="HIST 104: Black Music"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/ais101"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="AIS 101: Intro to American Indian Studies"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/socw300"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="SOCW 300: Diversity: Identities and Issues"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/epsy202"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="EPSY 202: Exploring Cultural Diversity"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/aas100"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="AAS 100: Intro Asian American Studies"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/soc225"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="SOC 225: Race and Ethnicity"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <EditText
             android:id="@+id/lls100"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="LLS 100: Intro Latina/Latino Studies"
-            android:clickable="true" />
+            android:textColor="#FF9800" />
 
         <TextView
             android:id="@+id/credit7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="bottom"
-            android:text="*Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/" />
+            android:text="*Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/"
+            android:textColor="#FF9800" />
     </LinearLayout>
 </LinearLayout>
