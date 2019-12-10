@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.webkit.WebView;
 import android.widget.TextView;
 
 public class ACList extends AppCompatActivity {
@@ -46,6 +47,9 @@ public class ACList extends AppCompatActivity {
         call(aged230);
         call(chlh304);
         call(btw250);
+
+        TextView credit = findViewById(R.id.credit);
+        credit.setOnClickListener(unused -> startActivity(new Intent(this, WebActivity.class)));
     }
 
     // Used to set the subject code and course number based off the specific course

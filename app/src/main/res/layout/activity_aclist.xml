@@ -14,13 +14,16 @@
 
         <EditText
             android:id="@+id/ansc205"
+            style="@style/Widget.AppCompat.EditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="ANSC 205: World Animal Resources"
-            android:textColor="#FF9800" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FF9800"
+            android:typeface="sans" />
 
         <EditText
             android:id="@+id/me470"
@@ -30,7 +33,9 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="ME 470: Senior Design Project"
-            android:textColor="#FF9800" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FF9800"
+            android:typeface="sans" />
 
         <EditText
             android:id="@+id/educ202"
@@ -40,7 +45,9 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="EDUC 202: Social Justic Sch and Society"
-            android:textColor="#FF9800" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FF9800"
+            android:typeface="sans" />
 
         <EditText
             android:id="@+id/phys280"
@@ -50,7 +57,9 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="PHYS 280: Nuclear Weapons and Arms Control"
-            android:textColor="#FF9800" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FF9800"
+            android:typeface="sans" />
 
         <EditText
             android:id="@+id/ece316"
@@ -60,7 +69,9 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="ECE 316: Ethics and Engineering"
-            android:textColor="#FF9800" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FF9800"
+            android:typeface="sans" />
 
         <EditText
             android:id="@+id/ae443"
@@ -70,7 +81,9 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="AE 443: Aerospace Systems Design II"
-            android:textColor="#FF9800" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FF9800"
+            android:typeface="sans" />
 
         <EditText
             android:id="@+id/shs270"
@@ -80,7 +93,9 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="SHS 270: Common Disability in the Media"
-            android:textColor="#FF9800" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FF9800"
+            android:typeface="sans" />
 
         <EditText
             android:id="@+id/aged230"
@@ -90,7 +105,9 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="AGED 230: Leadership Communications"
-            android:textColor="#FF9800" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FF9800"
+            android:typeface="sans" />
 
         <EditText
             android:id="@+id/chlh304"
@@ -100,7 +117,9 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="CHLH 304: Foundations of Health Behavior"
-            android:textColor="#FF9800" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FF9800"
+            android:typeface="sans" />
 
         <EditText
             android:id="@+id/btw250"
@@ -110,15 +129,21 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="BTW 250: Principles Bus Comm"
-            android:textColor="#FF9800" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FF9800"
+            android:typeface="sans" />
 
         <TextView
             android:id="@+id/credit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:gravity="bottom"
-            android:text="*Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/"
-            android:textColor="#FF9800" />
+            android:text=" *Selection are based off http://waf.cs.illinois.edu/discovery/every_gen_ed_at_uiuc_by_gpa/"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FF9800"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed-light" />
     </LinearLayout>
 
 </LinearLayout>

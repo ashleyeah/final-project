@@ -45,6 +45,9 @@ public class QuanList extends AppCompatActivity {
         call(cs125);
         call(info102);
         call(soc380);
+
+        TextView credit = findViewById(R.id.credit5);
+        credit.setOnClickListener(unused -> startActivity(new Intent(this, WebActivity.class)));
     }
 
     public void call(TextView name) {

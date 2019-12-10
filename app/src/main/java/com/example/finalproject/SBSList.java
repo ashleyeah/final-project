@@ -45,6 +45,9 @@ public class SBSList extends AppCompatActivity {
         call(anth209);
         call(shs120);
         call(kin249);
+
+        TextView credit = findViewById(R.id.credit6);
+        credit.setOnClickListener(unused -> startActivity(new Intent(this, WebActivity.class)));
     }
 
     public void call(TextView name) {

@@ -22,7 +22,8 @@
             android:text=" - Advanced Composition (3 Hours) "
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
 
         <TextView
@@ -31,7 +32,8 @@
             android:layout_height="wrap_content"
             android:text="     Limited transfer courses allowed for Advanced Composition.  Transfer courses equivalent to BTW 250, 261, 263, Rhet 233 and Rhet 243 will be accepted for Advanced Composition.  Please note, BTW 250, Principles of Business Composition, is recommended for potential CPA Exam Candidates"
             android:textColor="#FF9800"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/hum"
@@ -41,7 +43,8 @@
             android:text=" - Humanities and the Arts (3 courses)"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/textView16"
@@ -49,7 +52,8 @@
             android:layout_height="wrap_content"
             android:text="     Literature and the Arts (1-2 courses)"
             android:textColor="#FF9800"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/textView17"
@@ -57,7 +61,8 @@
             android:layout_height="wrap_content"
             android:text="     Historical and Philosophical Perspectives (1-2 courses)"
             android:textColor="#FF9800"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/sci"
@@ -67,7 +72,8 @@
             android:text=" - Natural Sciences and Technology (2 courses) "
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/textView22"
@@ -75,7 +81,8 @@
             android:layout_height="wrap_content"
             android:text="     Life Sciences (0 - 2 courses)"
             android:textColor="#FF9800"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/textView23"
@@ -83,7 +90,8 @@
             android:layout_height="wrap_content"
             android:text="     Physical Sciences (0 - 2 courses)"
             android:textColor="#FF9800"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/soc"
@@ -93,7 +101,8 @@
             android:text=" - Behavioral Sciences (1 course)"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/west"
@@ -103,7 +112,8 @@
             android:text=" - Western Cultures (1 course)"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/nonw"
@@ -113,7 +123,8 @@
             android:text=" - Non-Western Cultures (1 course) "
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/us"
@@ -123,6 +134,7 @@
             android:text=" - U.S. Minorities Cultures (1 course) "
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
     </LinearLayout>
 </LinearLayout>

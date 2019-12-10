@@ -45,6 +45,9 @@ public class WList extends AppCompatActivity {
         call(scan251);
         call(ger251);
         call(rst242);
+
+        TextView credit = findViewById(R.id.credit8);
+        credit.setOnClickListener(unused -> startActivity(new Intent(this, WebActivity.class)));
     }
 
     public void call(TextView name) {

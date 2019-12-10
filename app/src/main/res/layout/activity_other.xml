@@ -20,7 +20,8 @@
             android:layout_height="wrap_content"
             android:text="Please check your DARS audit for more general education requirements, here is the general list with no specific hours: "
             android:textColor="#FF9800"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/comp"
@@ -30,7 +31,8 @@
             android:text=" - Advanced Composition"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
 
         <TextView
@@ -41,7 +43,8 @@
             android:text=" - Humanities and the Arts: Literature and the Arts or Historical and Philosophical Perspectives"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/soc"
@@ -51,7 +54,8 @@
             android:text=" - Social and Behavioral Sciences"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/sci"
@@ -61,7 +65,8 @@
             android:text=" - Natural Sciences and Technology: Life Science or Physical Science"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/quan"
@@ -71,7 +76,8 @@
             android:text=" - Quantitative Reasoning"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/textView2"
@@ -79,7 +85,8 @@
             android:layout_height="wrap_content"
             android:text="Cultural Studies:"
             android:textColor="#FF9800"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/west"
@@ -89,7 +96,8 @@
             android:text=" - Western/Comparative Cultures"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/nonw"
@@ -99,7 +107,8 @@
             android:text=" - Non-Western Cultures"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/us"
@@ -109,6 +118,7 @@
             android:text=" - US Minority Cultures"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
     </LinearLayout>
 </LinearLayout>

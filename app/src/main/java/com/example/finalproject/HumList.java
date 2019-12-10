@@ -47,6 +47,8 @@ public class HumList extends AppCompatActivity {
         call(art310);
         call(fr156);
 
+        TextView credit = findViewById(R.id.credit2);
+        credit.setOnClickListener(unused -> startActivity(new Intent(this, WebActivity.class)));
     }
     public void call(TextView name) {
         String a = name.getText().toString();

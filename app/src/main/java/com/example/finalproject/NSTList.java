@@ -45,6 +45,9 @@ public class NSTList extends AppCompatActivity {
         call(cpsc113);
         call(anth143);
         call(fshn120);
+
+        TextView credit = findViewById(R.id.credit3);
+        credit.setOnClickListener(unused -> startActivity(new Intent(this, WebActivity.class)));
     }
     public void call(TextView name) {
         String a = name.getText().toString();

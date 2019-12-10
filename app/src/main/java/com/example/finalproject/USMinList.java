@@ -45,6 +45,9 @@ public class USMinList extends AppCompatActivity {
         call(aas100);
         call(soc225);
         call(lls100);
+
+        TextView credit = findViewById(R.id.credit7);
+        credit.setOnClickListener(unused -> startActivity(new Intent(this, WebActivity.class)));
     }
 
     public void call(TextView name) {

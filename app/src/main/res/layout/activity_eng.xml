@@ -22,7 +22,8 @@
             android:text=" - 1 Advanced Composition course"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
 
         <TextView
@@ -33,7 +34,8 @@
             android:text=" - 6 hours of Humanities and the Arts electives  "
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/textView16"
@@ -41,7 +43,8 @@
             android:layout_height="wrap_content"
             android:text="     (called Campus Humanities)"
             android:textColor="#FF9800"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/soc"
@@ -51,7 +54,8 @@
             android:text=" - 6 hours Social and Behavioral Sciences electives"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/textView19"
@@ -59,7 +63,8 @@
             android:layout_height="wrap_content"
             android:text="     (called Campus SS)  "
             android:textColor="#FF9800"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/lib"
@@ -68,7 +73,8 @@
             android:text=" - 6 more hours of electives (Liberal Arts Electives)"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/west"
@@ -78,7 +84,8 @@
             android:text=" - 1 Western/Comparative Cultures course"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/nonw"
@@ -88,7 +95,8 @@
             android:text=" - 1 Non-Western Cultures course"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
 
         <TextView
             android:id="@+id/us"
@@ -98,6 +106,7 @@
             android:text=" - 1 U.S. Minority Cultures course"
             android:textColor="#FF9800"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
     </LinearLayout>
 </LinearLayout>

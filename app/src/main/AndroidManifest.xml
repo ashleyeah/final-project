@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CourseInfo"></activity>
+        <activity android:name=".WebActivity"></activity>
+        <activity android:name=".CourseInfo" />
         <activity android:name=".WList" />
         <activity android:name=".USMinList" />
         <activity android:name=".QuanList" />

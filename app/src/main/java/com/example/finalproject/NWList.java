@@ -45,6 +45,9 @@ public class NWList extends AppCompatActivity {
         call(geog101);
         call(ealc130);
         call(hist100);
+
+        TextView credit = findViewById(R.id.credit4);
+        credit.setOnClickListener(unused -> startActivity(new Intent(this, WebActivity.class)));
     }
 
     public void call(TextView name) {
