@@ -71,13 +71,21 @@ public class CourseInfo extends AppCompatActivity {
                         String label = doc.getElementsByTagName("label").item(0).getTextContent();
                         String description = doc.getElementsByTagName("description").item(0).getTextContent();
                         String creditHours = doc.getElementsByTagName("creditHours").item(0).getTextContent();
-                        String sectionInformation = doc.getElementsByTagName("courseSectionInformation").item(0).getTextContent();
-                        String degreeAttributes = doc.getElementsByTagName("sectionDegreeAttributes").item(0).getTextContent();
+                        try {
+                            String sectionInformation = doc.getElementsByTagName("courseSectionInformation").item(0).getTextContent();
+                            prereq.setText(sectionInformation);
+                        } catch (NullPointerException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            String degreeAttributes = doc.getElementsByTagName("sectionDegreeAttributes").item(0).getTextContent();
+                            degree.setText("Degree Attributes: " + degreeAttributes);
+                        } catch (NullPointerException e) {
+                            e.printStackTrace();
+                        }
                         info.setText("Course Name: " + label);
                         desc.setText("Description: " + description);
                         ch.setText("Credit Hours: " + creditHours);
-                        prereq.setText(sectionInformation);
-                        degree.setText("Degree Attributes: " + degreeAttributes);
                     }
                 }, new Response.ErrorListener() {
             @Override
